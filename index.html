@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Generate unique sigils based on your desires with the Alphabet of Desire.">
+    <meta name="keywords" content="sigil, desire, magic, alphabet, generation">
+    <meta name="author" content="Your Name">
+    <title>Alphabet of Desire</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <header>
+        <h1>Alphabet of Desire</h1>
+    </header>
+    <main>
+        <section>
+            <div>
+                <label for="desire">Enter Your Desire:</label><br>
+                <input type="text" id="desire" placeholder="Type here..." aria-label="Desire input field">
+                <button onclick="generateResult()" aria-label="Generate Sigil">Generate Sigil</button>
+            </div>
+            <div>
+                <h2>Result:</h2>
+                <p id="sigilResult">The result will appear here</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 - <span id="footer-symbol">ᛖ △ 𝐿 𝐾 𝑉</span></p>
+    </footer>
+    <script src="js/app.js" defer></script>
+</body>
+</html>
