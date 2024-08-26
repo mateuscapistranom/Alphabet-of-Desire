@@ -1,3 +1,9 @@
+section label {
+    font-size: 1.4em;
+    color: #b0b0b0; /* Light gray for labels */
+    animation: glow 1.5s ease-in-out infinite alternate; /* Glow effect */
+}
+
 /* General styles */
 body {
     background-color: #000000; /* Deep black background */
@@ -64,11 +70,6 @@ section > * {
     z-index: 1;
 }
 
-section label {
-    font-size: 1.4em;
-    color: #b0b0b0; /* Light gray for labels */
-}
-
 section input[type="text"] {
     width: 100%;
     padding: 14px;
@@ -117,6 +118,17 @@ p#sigilResult {
     color: #e0e0e0; /* Light gray for result text */
     margin-top: 10px;
     word-wrap: break-word; /* Automatic line wrapping */
+    animation: glow 1.5s ease-in-out infinite alternate; /* Glow effect */
+}
+
+/* Efeito de brilho para o resultado */
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #00ffff, 0 0 20px #00ffff, 0 0 25px #00ffff, 0 0 30px #00ffff, 0 0 35px #00ffff;
+    }
+    100% {
+        text-shadow: 0 0 20px #00ffff, 0 0 25px #00ffff, 0 0 30px #00ffff, 0 0 35px #00ffff, 0 0 40px #00ffff, 0 0 45px #00ffff, 0 0 50px #00ffff;
+    }
 }
 
 footer {
