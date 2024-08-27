@@ -13,3 +13,5 @@ After writing the statement, eliminate all repeated letters. For example, if the
 
 4. Creation of the Sigil
 Using the remaining letters, create a symbol or a set of symbols. This can be done intuitively, combining and stylizing the letters until the sigil no longer resembles the original letters. The goal is to create something that is visually unique and meaningful to you.
+
+https://sigilcraftcaos.netlify.app
