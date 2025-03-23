@@ -1,4 +1,4 @@
-Alphabet of Desire Method
+Alphabet of Desire 
 
 The Alphabet of Desire Method is an esoteric practice popularized within chaos magic, influenced by Austin Osman Spare and Robert Anton Wilson. This technique is especially used for creating magical sigils — symbols charged with intention and purpose to manifest desires. The approach is a modern adaptation of Spare's sigilization ideas, with an emphasis on using a simplified alphabet and eliminating repeated letters, an adaptation that gained prominence through the chaos magic community and books like Liber Null.
 
